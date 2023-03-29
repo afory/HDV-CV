@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #DDCECD;
+
+}
+
+.introduccion{
+    margin-top: 94px;
+    width: 100%;
+    height: 200px;
+    background: #780116;
+    transform: skewY(0.016rad);
+
+}
+
+.logo{
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.logo img{
+    width: 160px;
+    height: 85px;
+}
+
+.introduccion .img{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    transform: skewY(-0.016rad);
+    overflow: hidden;
+
+}
+
+.introduccion .img img{
+    width: 160px;
+    height: 195px;
+}
+
+
+.introduccion .contenido{
+    width: 50%;
+    height: 50%;
+    color: #faf3f3;
+    position: absolute;
+    left: 22%;
+    margin-bottom: 0;
+}
+
+.introduccion .contenido .p-1{
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+    font-size: 33px;
+    transform: skewY(-0.016rad);
+}
+.introduccion .contenido .p-2{
+    font-family: 'EB Garamond', serif;
+    font-weight: lighter;
+    font-size: 23px;
+    transform: skewY(-0.016rad);
+}
+
+.etiquetas{
+    width: 95%;
+    height: auto;
+    background: #83061d;
+    margin: 4% auto;
+    font-family: 'EB Garamond', serif;
+
+}
+
+.etiquetas .titulo-etiqueta{
+    font-family: 'EB Garamond', serif;
+    color: #faf3f3;
+    text-align: center;
+    font-size: 23px;
+    border-bottom: 2px #faf3f3 ridge;
+
+}
+
+.etiquetas .info-etiqueta{
+    font-family: 'EB Garamond', serif;
+    color: #CBF7ED;
+    font-size: 21px;
+    font-weight: lighter;
+    margin-bottom: 0;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 5px;
+
+}
+
+.etiquetas .info-info{
+    font-family: 'EB Garamond', serif;
+    color: #faf3f3;
+    font-size: 20px;
+    margin-bottom: 0;
+    display: inline;
+    margin-left: 5px;
+
+}
+
+.etiquetas .info-info-2{
+    font-family: 'EB Garamond', serif;
+    color: #faf3f3;
+    font-size: 20px;
+    margin-bottom: 0;
+    display: inline;
+    margin-left: 5px;
+    text-align: left;
+
+}
+
+.etiquetas span{
+    font-family: 'EB Garamond', serif;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    background: #94E8B4;
+    color: #1f011f;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-left: 5px;
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #5f0113;
+    color: #fff;
+  }
+  
+  .logo h1 {
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li:first-child {
+    margin-left: 150px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    font-family: 'EB Garamond', serif;
+    font-weight: lighter;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  nav ul li a:hover {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 2px;
+  }
+
+/* ¬¬¬¬¬TEST¬¬¬¬¬ */
+
+/*=========================FOOTER================================*/
+
+footer {
+    background: #780116;
+    min-height: 100px;;
+}
+footer p{
+    color:#faf3f3;
+    text-align:center;
+}
+#iconos  i {
+    font-size: 26px;
+    padding: 0 8px;
+    color:#faf3f3;
+}
